@@ -445,12 +445,15 @@ var config = {
 */
 function createObject() {
     landing.createObjectFromLanding(config);
+	console.log("Есть объект");
 }
 /**
 * The function below inits landing page using URL parameters.
 */
 function initLanding() {
+	console.log("Есть Вызов лендинга");
     landing.initLanding(config);
+	console.log("Есть отправка");
 }
 jQuery(document).ready(initLanding);
 </script>
